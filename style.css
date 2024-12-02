@@ -1,0 +1,12 @@
+body{
+    background-color: #F0E4E3;
+}
+
+p{
+    font-size: 25px;
+}
+img, video{
+	max-width: 100%;
+	height: auto;
+}
+
