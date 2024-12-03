@@ -2,21 +2,19 @@
 html{
     font-size: 100%;
     font-family: "Sour Gummy", sans-serif;
+
+img, video{
+        height: auto;
+        max-width: 50%; 
 }
 body{
-    background-color: #fff0c2; 
+    background-color: #d9e596;
 }
 h1{
     font-size: 4rem;
     text-align: center;
-    color: #f29d3e;
+    color: #1a5f25;
 }
-h2{
-    font-size: 3rem;
-    text-align: center;
-    color: #a7740d;
-}
-
 nav ul{
     list-style: none;
     padding: 59;
@@ -24,9 +22,14 @@ nav ul{
     text-align: center;
     font-size: 2rem;
 }
-
 nav li{
   display: inline-block;
   margin-right: 20px;
+}  
+figcaption{
+    font-size: 1.75rem;
 }
-
+p{
+    font-size: 2rem;
+    color: #8c8811;
+}

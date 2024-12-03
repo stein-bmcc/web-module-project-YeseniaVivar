@@ -2,19 +2,21 @@
 html{
     font-size: 100%;
     font-family: "Sour Gummy", sans-serif;
+
+img, video{
+        height: auto;
+        max-width: 50%;
+        ; 
+
 }
 body{
-    background-color: #fff0c2; 
+    background-color: #faebd7;
 }
 h1{
+
+    text-align: center;
     font-size: 4rem;
-    text-align: center;
-    color: #f29d3e;
-}
-h2{
-    font-size: 3rem;
-    text-align: center;
-    color: #a7740d;
+    color: #cf7620;
 }
 
 nav ul{
@@ -30,3 +32,11 @@ nav li{
   margin-right: 20px;
 }
 
+figcaption{
+    font-size: 1.75rem;
+}
+
+p{
+    font-size: 2rem;
+    color: #f87f3b;
+}
